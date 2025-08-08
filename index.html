@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniMercado Online</title>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>
+      <img src="logo.png" alt="Logomarca MiniMercado Online" width="40" height="40">
+      MiniMercado Online
+    </h1>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#cadastro">Cadastro</a></li>
+        <li><a href="#carrinho">Carrinho</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main>
+
+    <!-- Produtos -->
+    <section id="produtos" aria-labelledby="titulo-produtos">
+      <h2 id="titulo-produtos">Categorias e Produtos</h2>
+
+      <h3>Frutas e Verduras</h3>
+
+      <article>
+        <img src="banana_prata.jpg" alt="Banana prata, pacote de 1 kg" width="150">
+        <p><strong>Banana Prata — 1 kg</strong> — R$ 4,99</p>
+        <p>Banana fresca, ideal para lanches e sobremesas. Rica em potássio.</p>
+      </article>
+
+      <article>
+        <img src="alface_crespa.jpg" alt="Alface crespa, unidade" width="150">
+        <p><strong>Alface Crespa — unidade</strong> — R$ 2,49</p>
+        <p>Alface crocante e fresca, perfeita para saladas e sanduíches.</p>
+      </article>
+
+      <hr>
+
+      <h3>Produtos Alimentícios Não Perecíveis</h3>
+
+      <article>
+        <img src="arroz_parboilizado.jpg" alt="Arroz parboilizado, pacote de 1 kg" width="150">
+        <p><strong>Arroz Parboilizado — 1 kg</strong> — R$ 6,90</p>
+        <p>Arroz soltinho e fácil de preparar. Rico em nutrientes.</p>
+      </article>
+
+      <article>
+        <img src="feijao_preto.jpg" alt="Feijão preto, pacote de 1 kg" width="150">
+        <p><strong>Feijão Preto — 1 kg</strong> — R$ 8,49</p>
+        <p>Feijão de alta qualidade, ideal para preparos tradicionais e nutritivos.</p>
+      </article>
+
+      <hr>
+
+      <h3>Produtos de Higiene e Limpeza</h3>
+
+      <article>
+        <img src="sabonete.jpg" alt="Sabonete em barra" width="150">
+        <p><strong>Sabonete em Barra</strong> — R$ 1,90</p>
+        <p>Fragrância suave, deixa a pele limpa e macia.</p>
+      </article>
+
+      <article>
+        <img src="desinfetante.jpg" alt="Desinfetante 500 ml" width="150">
+        <p><strong>Desinfetante — 500 ml</strong> — R$ 5,90</p>
+        <p>Para limpeza geral. Elimina 99,9% dos germes e bactérias.</p>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- Serviços -->
+    <section id="servicos" aria-labelledby="titulo-servicos">
+      <h2 id="titulo-servicos">Serviços Oferecidos</h2>
+
+      <form action="#" method="post">
+          <legend>Tipo de entrega</legend>
+
+          <div>
+            <input type="radio" id="entrega-retirada" name="entrega" value="retirada" checked>
+            <label for="entrega-retirada"><strong>Retirada na loja</strong> — R$ 0,00</label>
+            <p>O cliente compra online e retira diretamente no balcão da loja.</p>
+          </div>
+
+          <div>
+            <input type="radio" id="entrega-tele" name="entrega" value="tele">
+            <label for="entrega-tele"><strong>Tele-entrega</strong> — R$ 8,00</label>
+            <p>O pedido é entregue no endereço informado pelo cliente no prazo combinado.</p>
+          </div>
+      </form>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <!-- Rodapé -->
+  <footer>
+    <address>
+      <p>&copy; 2025 MiniMercado Online</p>
+      <p>Contato: <a href="mailto:contato@minimercado.com.br">contato@minimercado.com.br</a></p>
+      <p>Telefone: <a href="tel:+5555999999999">(55) 99999-9999</a></p>
+      <p>Endereço: Rua das Palmeiras, 482 — Jardim das Estrelas — Nova Esperança — SP — CEP 09876-450</p>
+    </address>
+
+    <nav aria-label="Navegação do rodapé">
+      <a href="#produtos">Produtos</a> |
+      <a href="#servicos">Serviços</a> |
+      <a href="#cadastro">Cadastro</a> |
+      <a href="#carrinho">Carrinho</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
