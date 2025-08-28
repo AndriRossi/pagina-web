@@ -25,6 +25,7 @@ O site encontra-se disponível em:
 
 - **HTML5** – Estruturação da página web.  
 - **GitHub Pages** – Publicação do site para acesso público.  
+- teste de edição
 
 ---
 
