@@ -1,4 +1,4 @@
-// === Funções temporais relógio em tempo real ===
+// === Relógio ===
     function atualizaHora() {
       const agora = new Date();
       document.getElementById('hora-atual').textContent = agora.toLocaleString('pt-BR');
@@ -6,7 +6,7 @@
     setInterval(atualizaHora, 1000);
     atualizaHora();
 
-    // === Lógica de agendamento: habilita campos quando for tele‑entrega ===
+    // === Campos tele‑entrega ===
     const entregaRetirada = document.getElementById('entrega-retirada');
     const entregaTele = document.getElementById('entrega-tele');
     const camposAgendamento = [
@@ -96,7 +96,7 @@
       });
     });
 
-    // Delegação: ações dentro da tabela do carrinho (+, −, Remover)
+    // Ações Carrinho
     document.getElementById('cart-items').addEventListener('click', e => {
       const btn = e.target.closest('button[data-act]');
       if (!btn) return;
