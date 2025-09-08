@@ -14,17 +14,37 @@ O site encontra-se disponível em:
 
 ## Funcionalidades  
 
-- **Catálogo de Produtos**: itens organizados em categorias, como *Frutas e Verduras*, *Alimentos Não Perecíveis* e *Higiene e Limpeza*.  
-- **Serviços**: exibição dos serviços oferecidos, como *Retirada na Loja* e *Tele-entrega*.  
-- **Navegação Estruturada**: links de acesso às seções principais (*Produtos*, *Serviços*, *Cadastro de Clientes*, *Carrinho de Compras*).  
-- **Interface Simples**: construída exclusivamente em HTML5, atendendo aos requisitos da fase inicial do projeto.  
+- **Catálogo de produtos**  
+  Exibição organizada em categorias (Frutas e Verduras, Alimentos não perecíveis, Higiene e Limpeza), com imagem, descrição, preço e botões de ação.  
+
+- **Carrossel de destaques**  
+  Área inicial com produtos em evidência, navegável e responsiva.  
+
+- **Carrinho de compras dinâmico**  
+  Permite adicionar ou remover produtos, ajustar quantidades, visualizar subtotal e valor total em tempo real, além de limpar ou finalizar o pedido.  
+
+- **Serviços e agendamento de entrega**  
+  Opção de retirada na loja ou tele-entrega (com taxa). Se tele-entrega for selecionada, habilita campos de data, horário e observações, com restrições de horário (09h–20h).  
+
+- **Cadastro do cliente**  
+  Formulário completo com campos obrigatórios (nome, CPF, data de nascimento, e-mail, telefone, endereço, etc.), incluindo validações de formato (CPF, CEP, telefone) e opção de aceite dos termos de uso.  
+
+- **Acessibilidade**  
+  Uso de textos alternativos (`alt`) para imagens, labels associados a campos de formulário, e suporte à navegação por teclado.  
+
+- **Relógio em tempo real**  
+  Exibe a data e hora atualizada dinamicamente no cabeçalho.  
+
+- **Layout responsivo**  
+  Desenvolvido com Bootstrap 5, adaptando-se a diferentes tamanhos de tela (desktop, tablet e celular).  
 
 ---
 
 ## Tecnologias Utilizadas  
 
 - **HTML5** – Estruturação da página web.  
-- **GitHub Pages** – Publicação do site para acesso público.  
+- **GitHub Pages** – Publicação do site para acesso público.
+- **CSS/Bootstrap e JavaScript** - CSS/Bootstrap e JavaScript – O projeto utiliza o framework Bootstrap para estilização responsiva e componentes prontos de interface, além de funcionalidades em JavaScript para interatividade e dinamicidade do sistema. 
 
 ---
 
